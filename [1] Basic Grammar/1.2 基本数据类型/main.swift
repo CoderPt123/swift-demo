@@ -24,7 +24,7 @@ import Foundation
  */
 
 
-// 1.2.1 整型
+//MARK: 整型
 var intValue: Int = 10
 
 // 如果按照长度划分,Swift中的长短比OC更加精确
@@ -37,7 +37,7 @@ var intValue6: Int64 = 9
 // 注意：无符号的数比有符号的取值范围更大, 因为符号位也用来存值
 var uintValue7: UInt = 10
 
-// 1.2.2 浮点型
+//MARK: 浮点型
 var doubleValue: Double = 10.10 // 表示64位浮点数
 var floatValue: Float = 8.9     // 表示32位浮点数
 
